@@ -1,0 +1,126 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+}
+
+
+/* CSS do topo */
+/* ---------------------- */
+header{
+	width: 100%;
+	background-image: url("../images/taxes-sml.png");
+}
+
+header .container{
+	width: 96%;
+	align-self: center;
+	padding: 2% 2%;
+}
+
+h1{
+	text-align: center;
+}
+
+h1 img{
+	max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+.ul-nav-topo{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* CSS dos containers */
+/* ---------------------- */
+.container{
+	width: 96%;
+	align-self: center;
+	padding: 0 2%;
+}
+
+
+
+/* CSS dos textos */
+/* ---------------------- */
+h2{
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+h3{
+	font-size: 1.1rem;
+	padding: .5em 0;
+}
+
+p{
+	font-size: 1.0rem;
+}
+
+
+/* CSS das sections */
+/* ---------------------- */
+.segunda-section, .terceira-section, .quarta-section, .quinta-section{
+	width: 100%;
+	background-color: rgb(255,255,255);
+	padding-bottom: 2%;
+}
+
+
+/* CSS do rodapé */
+/* ---------------------- */
+footer{
+	width: 100%;
+	background-image: url("../images/rodape.png");
+}
+
+.container p{
+	text-align: center;
+	padding: .5em 0;
+}
+
+.copyright {
+  color: white;
+}
+
+footer .social{
+	display: flex;
+	width: 200px;
+	justify-content: space-around;
+	padding: 1% 0;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.social a {
+  background-position: top;
+  background-size: 50px 50px;
+  height: 90px;
+  padding: 0 15px;
+}
+
+.social img {
+    max-width:50px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}
+
+/* CSS da media 600px */
+/* ---------------------- */
+@media (min-width: 600px){
+	header{
+		width: 100%;
+		background-image: url("../images/taxes-med.png");
+	}
+}
