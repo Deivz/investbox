@@ -67,7 +67,7 @@
 }
 
 .icone-check, .icone-x {
-  background: url("../images/sprite.png") no-repeat;
+  background: url("images/sprite.png") no-repeat;
   width: 20px;
   height: 20px;
 }
@@ -115,9 +115,12 @@
 }
 
 .botoes-store{
+	max-width: 300px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .botao-store-googleplay img{
@@ -138,7 +141,7 @@
 /* CSS da quarta section */
 /* ---------------------- */
 .container .quarta-section{
-	background-color: rgb(235,235,235);
+	background-color: rgb(225,225,225);
 }
 
 .quarta-section-modulos{
@@ -146,7 +149,7 @@
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	min-width: 300px;
-	max-width: 340px;
+	max-width: 400px;
 	margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
@@ -216,4 +219,223 @@
 .texto-conteudo{
 	margin: 1em 0;
 	padding: .5em 0;
+}
+
+/*               CSS das media query               */
+
+/* CSS da media 1024px */
+/* ---------------------- */
+@media (min-width: 1024px){
+	.primeira-section h2, h3{
+		padding-left: 6.1%;
+	}
+
+	.primeira-section-texto {
+		padding-top: 2%;
+		width: 50%;
+		padding-left: 3%;
+	}
+
+	.primeira-section h2, h3{
+		text-align: justify;
+	}
+
+	.primeira-section p{
+		text-align: left;
+		padding-left: 6%;
+	}
+
+
+	/* CSS da segunda section */
+	/* ---------------------- */
+	.segunda-section .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.segunda-section h2{
+		width: 100%;
+	}
+
+	/* CSS da terceira section */
+	/* ---------------------- */
+	.terceira-section .container{
+		display: flex;
+		padding-top: 2%;
+	}
+
+	.imagem-terceira-section, .terceira-section-texto{
+		padding: 4% 2%;
+		width: 50%;
+	}
+
+	.terceira-section-texto h2{
+		text-align: justify;
+	}
+
+	.terceira-section-texto h3{
+		padding-left: 0;
+		padding-top: 2em;
+	}
+
+	.terceira-section-texto p{
+		padding-top: 2em;
+		text-align: justify;
+	}
+
+	.imagem-terceira-section img{
+	    max-width:450px;
+	    max-height:350px;
+	    width: auto;
+	    height: auto;
+	    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+	}
+
+	.botoes-store{
+	    padding-top: 4%;
+	}
+
+	/* CSS da quarta section */
+	/* ---------------------- */
+	.quarta-section .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.quarta-section-modulos{
+		min-width: 300px;
+		max-width: 310px;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 4%;
+	    margin-bottom: 4%;
+	}
+
+
+	/* CSS da quarta section */
+	/* ---------------------- */
+	.quinta-section .container{
+		display: flex;
+		padding-top: 2%;
+		flex-direction: row-reverse;
+	}
+
+	.imagem-quinta-section, .quinta-section-texto{
+		padding: 4% 2%;
+		width: 50%;
+	}
+
+	.quinta-section-texto h2{
+		text-align: left;
+	}
+
+	.quinta-section-texto h3{
+		padding-left: 0;
+		padding-top: 2em;
+	}
+
+	.quinta-section-texto p{
+		padding-top: 2em;
+		text-align: justify;
+	}
+
+	.imagem-quinta-section img{
+	    max-width:450px;
+	    max-height:350px;
+	    width: auto;
+	    height: auto;
+	    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+	}
+}
+/* CSS da media 1366px */
+/* ---------------------- */
+@media (min-width: 1366px){
+	.primeira-section h2, h3{
+		padding-left: 6.1%;
+	}
+
+	.primeira-section-texto {
+		padding-top: 2%;
+		width: 50%;
+		padding-left: 3%;
+	}
+
+	.primeira-section h2, h3{
+		text-align: justify;
+	}
+
+	.primeira-section p{
+		text-align: left;
+		padding-left: 6%;
+	}
+
+
+	/* CSS da segunda section */
+	/* ---------------------- */
+	.segunda-section .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.segunda-section h2{
+		width: 100%;
+	}
+
+	/* CSS da terceira section */
+	/* ---------------------- */
+	.terceira-section .container{
+		display: flex;
+		padding-top: 2%;
+	}
+
+	.imagem-terceira-section, .terceira-section-texto{
+		padding: 4% 2%;
+		width: 50%;
+	}
+
+	.terceira-section-texto h2{
+		text-align: justify;
+	}
+
+	.terceira-section-texto h3{
+		padding-left: 0;
+		padding-top: 2em;
+	}
+
+	.terceira-section-texto p{
+		padding-top: 2em;
+		text-align: justify;
+	}
+
+	.imagem-terceira-section img{
+	    max-width:450px;
+	    max-height:350px;
+	    width: auto;
+	    height: auto;
+	    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+	}
+
+	.botoes-store{
+	    padding-top: 4%;
+	}
+
+	/* CSS da quarta section */
+	/* ---------------------- */
+	.quarta-section .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.quarta-section-modulos{
+		min-width: 300px;
+		max-width: 310px;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 4%;
+	    margin-bottom: 4%;
+	}
 }
