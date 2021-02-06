@@ -121,6 +121,6 @@ footer .social{
 @media (min-width: 600px){
 	header{
 		width: 100%;
-		background-image: url("../images/taxes-med.png");
+		background-image: url("images/taxes-med.png");
 	}
 }
