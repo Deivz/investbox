@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<title>Home | Investbox</title>
 		<link rel="stylesheet"	href="reset.css">
-		<link rel="stylesheet"	href="style.css">
-		<link rel="stylesheet"	href="home.css">
+		<link rel="stylesheet"	href="estilo.css">
+		<link rel="stylesheet"	href="estiloindex.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	</head>
