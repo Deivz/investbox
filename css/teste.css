@@ -1,0 +1,396 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+}
+
+
+/* CSS do topo */
+/* ---------------------- */
+header{
+	width: 100%;
+	background-image: url("../images/taxes.png");
+}
+
+.container-topo{
+	width: 80%;
+	padding: 1em 1em;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ul-nav-topo{
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #FAA500;
+}
+
+main{
+	width: 100%;
+}
+
+/* CSS da primeira section */
+/* ---------------------- */
+.primeira-section{
+	margin: 0 auto;
+	width: 80%;
+	height: 350px;
+	display: flex;
+}
+
+.primeira-section-texto{
+	width: 40%; 
+	text-align: justify;
+	padding: 8em 6em;
+
+}
+
+.primeira-section h2{
+	font-weight: bold;
+	font-size: 1.9em;
+}
+
+.primeira-section h3{
+	font-size: 1.4em;
+	padding: .5em 0;
+}
+
+.texto-conteudo{
+	font-size: 1.2em;
+	margin: 2em 0;
+	padding: .5em 0;
+}
+
+
+/* CSS da segunda section */
+/* ---------------------- */
+.segunda-section{
+	width: 100%;
+	background-color: rgb(255,255,255);
+	padding-bottom: 2%;
+}
+
+.segunda-section-container{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px 10%;
+	justify-content: space-around;
+}
+
+.segunda-section-titulo{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2% 50%;
+	font-size: 32px;
+	text-decoration: underline;
+	font-weight: bold;
+	color: gray;
+}
+
+.plano{
+	background-color: rgb(255,255,255);
+	text-align: center;
+	border: 1px solid #acacac;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 360px;
+}
+
+.plano h3{
+	width: 100%;
+	background-color: #FFA500;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 1em 0;
+}
+
+.plano div {
+  text-align: center;
+  color: #66DDDD;
+  font-size: 2.75em;
+  padding: .5em 0;
+  width: 100%;
+}
+
+.plano .itens-plano{
+  	display: flex;
+  	flex-direction: column;
+}
+
+.itens-plano li{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1em;
+  list-style: none;
+  border-bottom: 1px solid #acacac;
+  padding: 1.8%;
+  width: 80%;
+  margin: 0 7%;
+}
+
+.icone-check, .icone-x {
+  background: url("../images/sprite.png") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.icone-check {
+  background-position: -3px -3px;
+}
+
+.icone-x {
+  background-position: -32px -5px;
+}
+
+.plano button {
+  background: #FFA500;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  margin: 1.5em;
+}
+
+
+/* CSS da terceira section */
+/* ---------------------- */
+.terceira-section{
+	width: 100%;
+	background-color: #FFA500;
+}
+
+.terceira-section-container{
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+}
+
+.imagem-terceira-section{
+	padding: 2em 4em;
+}
+
+.imagem-terceira-section img{
+    max-width:500px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
+.terceira-section-texto{
+	width: 100%; 
+	text-align: justify;
+	padding: 3em 6em;
+}
+
+.terceira-section h2{
+	font-weight: bold;
+	font-size: 2.2em;
+}
+
+.terceira-section h3{
+	font-size: 1.5em;
+	padding: 1em 0;
+}
+
+.texto-conteudo{
+	font-size: 1.2em;
+	margin: 1em 0;
+	padding: .5em 0;
+}
+
+.botoes-store{
+	display: flex;
+	align-items: center;
+}
+
+.botao-store-googleplay img{
+    max-width:238px;
+    max-height:235px;
+    width: auto;
+    height: auto;
+}
+
+.botao-store-appstore img{
+	max-width:210px;
+    max-height:210px;
+    width: auto;
+    height: auto;
+}
+
+
+
+/* CSS da quarta section */
+/* ---------------------- */
+.quarta-section{
+	background-color: rgb(235,235,235);
+	width: 100%;
+	height: 400px;
+}
+
+.quarta-section-container{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.7% 10%;
+	justify-content: space-around;
+}
+
+
+.quarta-section-modulos{
+	background-color: rgb(255,255,255);
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 360px;
+	height: 330px;
+}
+
+.imagem-icone{
+  text-align: center;
+  margin-top: .4em;
+  font-size: 2.75em;
+  width: 100%;
+}
+
+.quarta-section-modulos h2{
+	width: 100%;
+	background-color: rgb(255,255,255);
+	font-size: 1.5em;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+.quarta-section-modulos p{
+	width: 90%;
+	background-color: rgb(255,255,255);
+	font-size: 1.1em;
+	color: black;
+	text-align: justify;
+	padding: 0 .5em 0 .5em;
+	margin-top: 1.4em;
+}
+
+.imagem-icone img{
+    max-width:83px;
+    max-height:84px;
+    width: auto;
+    height: auto;
+}
+
+/* CSS da quinta section */
+/* ---------------------- */
+.quinta-section{
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+.quinta-section-container{
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+
+.imagem-quinta-section{
+	padding: 2em 4em;
+}
+
+.imagem-quinta-section img{
+    max-width:500px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
+.quinta-section-texto{
+	width: 100%; 
+	text-align: justify;
+	padding: 3em 6em;
+}
+
+.quinta-section h2{
+	font-weight: bold;
+	font-size: 2.2em;
+}
+
+.quinta-section h3{
+	font-size: 1.5em;
+	padding: 1em 0;
+}
+
+.texto-conteudo{
+	font-size: 1.2em;
+	margin: 1em 0;
+	padding: .5em 0;
+}
+
+
+/* CSS do rodape */
+/* ---------------------- */
+footer{
+	width: 100%;
+}
+
+.container-rodape{
+	width: 80%;
+	height: auto;
+	background-image: url("../images/rodape.png");
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 10%;
+	align-items: center;
+}
+
+.container-rodape p {
+  color: white;
+  margin-left: 40%;
+}
+
+.social{
+  display: flex;
+  height: auto;
+}
+
+.social a {
+  background-position: top;
+  background-size: 50px 50px;
+  height: 90px;
+  padding: 0 15px;
+}
+
+.social img {
+    max-width:50px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}

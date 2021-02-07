@@ -4,30 +4,32 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<title>Home | Investbox</title>
-		<link rel="stylesheet"	href="reset.css">
-		<link rel="stylesheet"	href="estilo.css">
-		<link rel="stylesheet"	href="estiloindex.css">
+		<link rel="stylesheet"	href="css/reset.css">
+		<link rel="stylesheet"	href="css/style.css">
+		<link rel="stylesheet"	href="css/home.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 		<header>
-			<div class="container">
-				<h1><img src="images/investbox-logo.png" alt="Logo da Investbox"></h1>
-				<div class="abrir-menu">
-				  <div class="bar1"></div>
-				  <div class="bar2"></div>
-				  <div class="bar3"></div>
+			<div class="topo">
+				<div class="container">
+					<h1><img src="images/investbox-logo.png" alt="Logo da Investbox"></h1>
+					<div class="abrir-menu">
+					  <div class="bar1"></div>
+					  <div class="bar2"></div>
+					  <div class="bar3"></div>
+					</div>
+					<nav class="nav-topo">
+						<ul class="ul-nav-topo">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="produtos.html">Produtos</a></li>
+							<li><a href="contato.html">Contato</a></li>
+							<li><a href="login.html">Login</a></li>
+						</ul>
+					</nav>
 				</div>
-				<nav class="nav-topo">
-					<ul class="ul-nav-topo">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-						<li><a href="login.html">Login</a></li>
-					</ul>
-				</nav>
 			</div>
 			<section class="primeira-section">
 				<div class="container">
@@ -154,6 +156,6 @@
 			</ul>
 		</div>
 	</footer>
-	<script src="menu.js"></script>
+	<script src="js/menu.js"></script>
 	</body>
 </html>
