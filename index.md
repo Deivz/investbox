@@ -15,7 +15,7 @@
 		<header>
 			<div class="container">
 				<h1><img src="images/investbox-logo.png" alt="Logo da Investbox"></h1>
-				<div class="abrir-menu" onclick="abrirMenu(this)">
+				<div class="abrir-menu">
 				  <div class="bar1"></div>
 				  <div class="bar2"></div>
 				  <div class="bar3"></div>
