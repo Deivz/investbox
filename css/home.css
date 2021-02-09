@@ -1,0 +1,463 @@
+/* CSS da primeira section */
+/* ---------------------- */
+.primeira-section-texto{
+	padding-top: 4%;
+	color: white;
+}
+
+.primeira-section h2, h3, p{
+	text-align: center;
+}
+
+/* CSS da segunda section */
+/* ---------------------- */
+.segunda-section-titulo{
+	padding: 4% 0;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	color: gray;
+}
+
+.plano{
+	background-color: rgb(255,255,255);
+	text-align: center;
+	border: 1px solid #acacac;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	min-width: 320px;
+	max-width: 360px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.plano h3{
+	width: 100%;
+	background-color: #FFA500;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 1em 0;
+}
+
+.plano div {
+  text-align: center;
+  color: #66DDDD;
+  font-size: 2.75em;
+  padding: .5em 0;
+  width: 100%;
+}
+
+.plano .itens-plano{
+  	display: flex;
+  	flex-direction: column;
+}
+
+.itens-plano li{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1em;
+  list-style: none;
+  border-bottom: 1px solid #acacac;
+  padding: 1.8%;
+  width: 80%;
+  margin: 0 7%;
+}
+
+.icone-check, .icone-x {
+  background: url("../images/sprite.png") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.icone-check {
+  background-position: -3px -3px;
+}
+
+.icone-x {
+  background-position: -32px -5px;
+}
+
+.plano button {
+  background: #FFA500;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  margin: 1.5em;
+}
+
+
+/* CSS da terceira section */
+/* ---------------------- */
+.terceira-section{
+	background-color: #FFA500;
+	text-align: center;
+}
+
+.imagem-terceira-section{
+	text-align: center;
+	padding: 4% 0;
+}
+
+.imagem-terceira-section img{
+    max-width:300px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
+.botoes-store{
+	max-width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.botao-store-googleplay img{
+    max-width:150px;
+    max-height:110px;
+    width: auto;
+    height: auto;
+}
+
+.botao-store-appstore img{
+	max-width:150px;
+    max-height:110px;
+    width: auto;
+    height: auto;
+}
+
+
+/* CSS da quarta section */
+/* ---------------------- */
+.quarta-section-modulos{
+	background-color: rgb(255,255,255);
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	min-width: 300px;
+	max-width: 400px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.imagem-icone{
+  padding: 2% 0;
+}
+
+.quarta-section-modulos h2{
+	font-size: 1.5em;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+.quarta-section-modulos p{
+	font-size: 1.1em;
+	color: black;
+	text-align: justify;
+	padding: 2% 2%;
+}
+
+.imagem-icone img{
+    max-width:83px;
+    max-height:84px;
+    width: auto;
+    height: auto;
+}
+
+/* CSS da quinta section */
+/* ---------------------- */
+.quinta-section{
+	background-color: rgb(225, 225, 225);
+}
+
+.imagem-quinta-section{
+	text-align: center;
+	padding: 4% 0;
+}
+
+.imagem-quinta-section img{
+    max-width:300px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
+.quinta-section-texto{
+	text-align: justify;
+}
+
+.quinta-section h2{
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+.quinta-section h3{
+	padding: 1em 0;
+}
+
+.texto-conteudo{
+	margin: 1em 0;
+	padding: .5em 0;
+}
+
+/*               CSS das media query               */
+
+/* CSS da media 1024px */
+/* ---------------------- */
+@media (min-width: 1024px){
+	.primeira-section h2, h3{
+		padding-left: 6.1%;
+	}
+
+	.primeira-section-texto {
+		padding-top: 2%;
+		width: 50%;
+		padding-left: 3%;
+	}
+
+	.primeira-section h2, h3{
+		text-align: justify;
+	}
+
+	.primeira-section p{
+		text-align: left;
+		padding-left: 6%;
+	}
+
+
+	/* CSS da segunda section */
+	/* ---------------------- */
+	.segunda-section .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.segunda-section h2{
+		width: 100%;
+	}
+
+	/* CSS da terceira section */
+	/* ---------------------- */
+	.terceira-section .container{
+		display: flex;
+		padding-top: 2%;
+	}
+
+	.imagem-terceira-section, .terceira-section-texto{
+		padding: 4% 2%;
+		width: 50%;
+	}
+
+	.terceira-section-texto h2{
+		text-align: justify;
+	}
+
+	.terceira-section-texto h3{
+		padding-left: 0;
+		padding-top: 2em;
+	}
+
+	.terceira-section-texto p{
+		padding-top: 2em;
+		text-align: justify;
+	}
+
+	.imagem-terceira-section img{
+	    max-width:450px;
+	    max-height:350px;
+	    width: auto;
+	    height: auto;
+	    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+	}
+
+	.botoes-store{
+	    padding-top: 4%;
+	}
+
+	/* CSS da quarta section */
+	/* ---------------------- */
+	.quarta-section .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.quarta-section-modulos{
+		min-width: 300px;
+		max-width: 310px;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 4%;
+	    margin-bottom: 4%;
+	}
+
+
+	/* CSS da quarta section */
+	/* ---------------------- */
+	.quinta-section .container{
+		display: flex;
+		padding-top: 2%;
+		flex-direction: row-reverse;
+	}
+
+	.imagem-quinta-section, .quinta-section-texto{
+		padding: 4% 2%;
+		width: 50%;
+	}
+
+	.quinta-section-texto h2{
+		text-align: left;
+	}
+
+	.quinta-section-texto h3{
+		padding-left: 0;
+		padding-top: 2em;
+	}
+
+	.quinta-section-texto p{
+		padding-top: 2em;
+		text-align: justify;
+	}
+
+	.imagem-quinta-section img{
+	    max-width:450px;
+	    max-height:350px;
+	    width: auto;
+	    height: auto;
+	    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+	}
+}
+/* CSS da media 1366px */
+/* ---------------------- */
+@media (min-width: 1366px){
+	h2{
+		font-size: 1.7rem;
+	}
+
+	h3{
+		font-size: 1.4rem;
+	}
+
+	p{
+		text-align: left;
+		padding-left: 6%;
+		font-size: 1.2rem;
+	}
+
+	.primeira-section h2, h3{
+		padding-left: 6.1%;
+		text-align: justify;
+	}
+
+	.primeira-section-texto {
+		padding-top: 2%;
+		width: 50%;
+		padding-left: 3%;
+	}
+
+	.primeira-section p{
+		text-align: left;
+		padding-left: 6%;
+	}
+
+
+	/* CSS da segunda section */
+	/* ---------------------- */
+	.segunda-section .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.segunda-section-titulo{
+		padding: 2% 0;
+	}
+
+	.plano{
+		min-width: 400px;
+		max-width: 440px;
+	    margin-bottom: 2%;
+	}
+
+	.segunda-section h2{
+		width: 100%;
+	}
+
+	/* CSS da terceira section */
+	/* ---------------------- */
+	.terceira-section .container{
+		display: flex;
+		padding-top: 1%;
+	}
+
+	.imagem-terceira-section{
+		padding: 4% 2%;
+		width: 50%;
+	}
+
+	.terceira-section-texto{
+		padding: 6% 2% 0 2%;
+		width: 50%;
+	}
+
+	.terceira-section-texto h2{
+		text-align: justify;
+	}
+
+	.terceira-section-texto h3{
+		padding-left: 0;
+		padding-top: 2em;
+	}
+
+	.terceira-section-texto p{
+		padding-top: 2em;
+		text-align: justify;
+	}
+
+	.imagem-terceira-section img{
+	    max-width:650px;
+	    max-height:550px;
+	    width: auto;
+	    height: auto;
+	    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+	}
+
+	.botoes-store{
+	    padding-top: 4%;
+	}
+
+
+	/* CSS da quarta section */
+	/* ---------------------- */
+	.quarta-section-modulos{
+		min-width: 380px;
+		max-width: 390px;
+	}
+
+
+	/* CSS da quarta section */
+	/* ---------------------- */
+	.imagem-quinta-section img{
+	    max-width:500px;
+	    max-height:400px;
+	}
+}

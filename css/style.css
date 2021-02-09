@@ -1,0 +1,292 @@
+body{
+	font-family: 'Poppins', sans-serif !important;
+	width: 100% !important;
+}
+
+
+/* CSS do topo */
+/* ---------------------- */
+header{
+	width: 100%;
+	background-image: url("../images/novo-topo-sml.png");
+}
+
+.topo{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(62,68,72,0.7);
+	max-height: 125px;
+}
+
+header .container{
+	width: 96%;
+	align-self: center;
+	padding: 2% 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.abrir-menu {
+  display: inline-block;
+  cursor: pointer;
+  padding-top: .85em;
+  right: 0;
+  z-index: 3;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(225,225,225);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+
+/* Rotate first bar*/
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar*/
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar*/
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.nav-topo{
+	background-color: #FFA500;
+	padding: 2em .5em;
+	margin: 0;
+	height: 100%;
+	width: 90%;
+	max-width: 180px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: -90%;
+	transition: right 0.3s ease-out;
+
+}
+
+.nav-topo li{
+	padding-top: 2em;
+	text-decoration: none;
+}
+
+.menu-ativo .nav-topo{
+	right: 0;
+}
+
+.menu-ativo:after{
+	content: "";
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+}
+
+h1{
+	text-align: center;
+}
+
+h1 img{
+	max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+
+nav a{
+	text-transform: uppercase;
+	color: rgb(255,255,255);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* CSS dos containers */
+/* ---------------------- */
+.container{
+	width: 96%;
+	align-self: center;
+	padding: 0 2%;
+}
+
+
+
+/* CSS dos textos */
+/* ---------------------- */
+h2{
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+h3{
+	font-size: 1.1rem;
+	padding: .5em 0;
+}
+
+p{
+	font-size: 1.0rem;
+}
+
+
+/* CSS das sections */
+/* ---------------------- */
+.segunda-section, .terceira-section, .quarta-section, .quinta-section{
+	width: 100%;
+	background-color: rgb(255,255,255);
+	padding-bottom: 2%;
+}
+
+
+/* CSS do rodapé */
+/* ---------------------- */
+footer{
+	width: 100%;
+	background-image: url("../images/rodape.png");
+}
+
+.container p{
+	text-align: center;
+	padding: .5em 0;
+}
+
+.copyright {
+  color: white;
+}
+
+footer .social{
+	display: flex;
+	width: 200px;
+	justify-content: space-around;
+	padding: 1% 0;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.social a {
+  background-position: top;
+  background-size: 50px 50px;
+  height: 90px;
+  padding: 0 15px;
+}
+
+.social img {
+    max-width:50px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}
+
+/* CSS da media 500px */
+/* ---------------------- */
+@media (min-width: 500px){
+	header{
+		width: 100%;
+		background-image: url("../images/novo-topo-med.png");
+	}
+}
+
+/* CSS da media 800px */
+/* ---------------------- */
+@media (min-width: 800px){
+	header{
+		width: 100%;
+		background-image: url("../images/novo-topo-big.png");
+	}
+}
+
+
+/* CSS da media 1024px */
+/* ---------------------- */
+@media (min-width: 1024px){
+	header .container{
+		padding: 1em 1em;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.abrir-menu{
+		display: none;
+	}
+
+	.nav-topo{
+		background-color: transparent;
+		padding: 2em .5em;
+		height: 15%;
+		width: 90%;
+		max-width: 640px;
+		position: static;
+		z-index: 0;
+		left: 52%;
+	}
+
+	.nav-topo li{
+		padding-top: .1em;
+	}
+
+	.ul-nav-topo{
+		max-width: 640px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	nav a{
+		text-transform: uppercase;
+		color: rgb(255,255,255);
+		font-weight: bold;
+		font-size: 22px;
+		text-decoration: none;
+	}
+
+	nav a:hover{
+		color: #FAA500;
+		text-decoration: underline;
+	}
+
+	#btn-cadastro{
+		background-color: #FAA500;
+		border: solid;
+		border-color: #FAA500;
+		border-radius: 10px;
+		text-decoration: none;
+	}
+
+	#btn-cadastro:hover{
+		background-color: #FAA500;
+		color: black;
+		text-decoration: underline;
+	}
+}
+
+/* CSS da media 1366px */
+/* ---------------------- */
+@media (min-width: 1366px){
+	header{
+		width: 100%;
+		background-image: url("../images/novo-topo-big.png");
+	}
+}
+
+/* CSS da media 1400px */
+/* ---------------------- */
+@media (min-width: 1400px){
+	header{
+		width: 100%;
+		background-image: url("../images/novo-topo.png");
+	}
+}
