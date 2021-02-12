@@ -1,0 +1,142 @@
+html{
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	background-image: url("../images/security-sml.png");
+	height: 300px;
+}
+
+h2{
+	text-align: center;
+	padding: 2%;
+	color: gray;
+}
+
+form{
+	margin-top: 0;
+}
+
+form fieldset{
+	padding-top: 3em;
+}
+
+.primeira-fieldset{
+	padding-top: 0;
+}
+
+form fieldset legend{
+	color: black;
+	font-weight: bold;
+}
+
+form legend, input{
+	padding: .5em 0;
+}
+
+form input[type=text], input[type=email], input[type=tel], input[type=date], input[type=password] {
+  border: none;
+  border-bottom: 2px solid #FFA500;
+}
+
+label{
+	padding: .5em 0;
+ }
+
+ .form-check{
+	 padding-top: 3em;
+ }
+
+.form-check-label{
+	padding-top: .05em;
+}
+
+
+/*-------------------*/
+/*css para as classes de erros*/
+.erro1{
+	color: red;
+	top: 1px;
+	right: 20px;
+	font-weight: bold;
+	font-size: 1.3em;
+	position: absolute;
+}
+
+.erro2{
+	color: green;
+	font-weight: bold;
+	font-size: 1.4rem;
+	top: 1px;
+	right: 15px;
+	position: absolute;
+}
+
+.erro3{
+	color: red;
+}
+
+.dado-errado{
+	border: 2px solid red !important;
+}
+
+
+/*-------------------*/
+/*css do botão enviar*/
+.btn-primary{
+	background-color: #FFA500 !important;
+	border: none !important;
+	font-weight: bold !important;
+}
+
+
+/*---------------------------*/
+/*CSS para devices de 667px*/
+@media (min-width: 667px){
+	header{
+		background-image: url("../images/security-med.png");
+		height: 375px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+/*---------------------------*/
+/*CSS para devices de 1024px*/
+@media (min-width: 1024px){
+	header{
+		background-image: url("../images/security-big.png");
+
+	}
+}
+
+
+/*---------------------------*/
+/*CSS para devices de 1024px*/
+@media (min-width: 1024px){
+	form{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+/*---------------------------*/
+/*CSS para devices de 1366px*/
+@media (min-width: 1366px){
+	header{
+		background-image: url("../images/security-lrg.png");
+	}
+}
+
+
+/*---------------------------*/
+/*CSS para devices de 1920px*/
+@media (min-width: 1920px){
+	header{
+		background-image: url("../images/security-topo.png");
+	}
+}
